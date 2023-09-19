@@ -80,7 +80,7 @@ The paper can be cited as follows:
               paper starts with an exercise that admits a
               solution. The existence of this solution will hopefully
               convince anyone that, in general, unless the toolchain
-              and the build procedure arepub fully known, no meaning can
+              and the build procedure are fully known, no meaning can
               be assigned to any nontrivial piece of C code."
 }
 ```
