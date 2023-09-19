@@ -11,12 +11,12 @@ GCC=gcc-9
 "${GCC}" -w main.c -o a.out
 max=56623103
 success=yes
-for value in $(seq 0 1000 ${max})
+for value in $(seq 0 1000 "${max}")
 do
     echo "${value}"
     options=$(./a.out "${value}")
     echo "${options}"
-    "${GCC}" -g -w ${options} main.c -o ${value}.out
+    "${GCC}" -g -w ${options} main.c -o "${value}".out
     result=$(./"${value}".out)
     echo "${result}"
     if [ "${result}" -ne "${value}" ]
