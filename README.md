@@ -27,7 +27,7 @@ and reflect on its practical consequences.
 ### Executing
 
 * See the paper for instructions about the original version under `src/orig`.
-* For the current revision unde `src`:
+* For the current revision under `src`:
     * For sequential testing: in `test.sh`,
       change the step from `1000` to any value you want in line
       `for value in $(seq 0 1000 "${max}")`,
@@ -92,3 +92,4 @@ For useful comments and advice:
 * Paolo Bandini (formerly, University of Parma and BUGSENG)
 * Patricia M. Hill (BUGSENG)
 * Marcel Beemster (Solid Sands)
+* Nicola Vetrini (BUGSENG)
